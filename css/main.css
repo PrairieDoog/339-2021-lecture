@@ -1,0 +1,63 @@
+body{
+	font-family:Helvetica, Arial, sans-serif;
+	background-color: #f6f6f6;
+}
+
+h1{
+	font-size:3rem;
+}
+
+h2{
+	font-size:2rem;
+	font-weight:bold;
+	color:red;
+}
+
+p, ul,ol {
+	font-size:1rem;
+}
+
+p{
+	width:clamp(45ch, 70%, 75ch);
+}
+
+
+img{
+	max-width:100%;
+	height:auto;
+}
+
+a{
+	color:black;
+	font-weight:bold;
+	text-decoration-color:red;
+	text-decoration-line: 0.25rem;
+}
+
+nav a {
+	display:inline-block;
+	color:white;
+	background-color: rgb(200,50,50);
+	text-decoration:none;
+	padding: 0.25em 0.45rem;
+
+}
+
+nav a:hover, nav a:focus{
+	background-color: rgb(200,200,200);
+}
+
+.wrapper{
+	width:clamp(16rem, 90vw, 75rem);
+	padding:1rem;
+	background-color: white;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
